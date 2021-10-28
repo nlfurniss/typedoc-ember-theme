@@ -1,0 +1,41 @@
+{
+  "name": "typedoc-ember-theme",
+  "version": "0.0.1",
+  "description": "A Typedoc theme for Ember apps and addons",
+  "author": "Nathaniel Furniss",
+  "license": "MIT",
+  "private": false,
+  "keywords": [
+    "typedocplugin",
+    "typedoc",
+    "ember"
+  ],
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist",
+    "src"
+  ],
+  "scripts": {
+    "build": "rm -rf dist && tsc "
+  },
+  "dependencies": {
+    "fs-extra": "^10.0.0",
+    "typedoc": "^0.22.6",
+    "typedoc-plugin-markdown": "^3.11.3"
+  },
+  "devDependencies": {
+    "@types/fs-extra": "^9.0.13",
+    "@typescript-eslint/eslint-plugin": "^5.1.0",
+    "@typescript-eslint/parser": "^5.1.0",
+    "eslint": "^7.32.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-import": "^2.25.2",
+    "prettier": "^2.4.1",
+    "typescript": "^4.4.4"
+  },
+  "engines": {
+    "node": ">=12"
+  }
+}
