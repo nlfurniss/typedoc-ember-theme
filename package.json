@@ -1,6 +1,6 @@
 {
   "name": "typedoc-ember-theme",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A Typedoc theme for Ember apps and addons",
   "author": "Nathaniel Furniss",
   "license": "MIT",
