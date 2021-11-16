@@ -6,6 +6,7 @@ const CATEGORY_POSITIONS = {
   components: 1,
   services: 2,
   utils: 3,
+  helpers: 4,
 };
 
 const writeCategoryYaml = (
